@@ -3,7 +3,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-nav {
+nav { /*BARRA DE NAVEGACIÓN*/
   width: 100%;
   background-color: transparent;
   font-size: 125%;
@@ -21,6 +21,7 @@ nav {
   padding: 1.5% 0% 0% 40%;
   position: absolute;
   width: 50%;
+  color: white;
 }
 
 .lista {
@@ -34,13 +35,13 @@ a {
   font-weight: lighter;
 }
 
-header {
+header { /*Barra de navegación y Sección 1*/
   background-image: url("../assets/images/hero.gif");
   background-size: cover;
   padding: 20px 0;
 }
 
-.contenedor {
+.contenedor { /*sección 1*/
   width: 34%;
   height: 50%;
   background-color: white;
@@ -101,30 +102,184 @@ header {
   font-size: 70%;
   color: #939292;
 }
-.contenedor2 {
+
+.contenedor2 { /*SECCIÓN 2*/
   background: linear-gradient(#490666, #76278F, #2B1E66);
+  height: 300%;
 }
 
-.text-izq {
+.textizq {
   display: inline-block;
+  width: 40%;
+  height: 25%;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-bottom: 10%;
   color: white;
 }
 
-.parrafo1 {
-  padding: 15% 0% 0% 25%;
-  width: 300%;
-}
-
-.title2 {
-  font-size: 200%;
-}
-
-.text6 {
-  font-size: 200%;
-}
-
-.img-phone {
-  width: 40%;
-  padding: 5% 0% 0% 50%;
+.phoneimg {
   display: inline-block;
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  margin-left: 1%;
+  margin-top: 4%;
+}
+
+.contenedor3 { /*sección 3*/
+  width: 100%;
+  color: black;
+}
+
+.textizq2 {
+  width: 30%;
+  height: 30%;
+  padding: 1% 4.5% 20% 3%;
+  display: inline-block;
+}
+
+.text10 {
+  font-size: 85%;
+  font-weight: bold;
+  padding-bottom: 0;
+  padding-top: 5%;
+}
+
+.title5 {
+  font-size: 190%;
+}
+
+.text11 {
+  font-size: 95%;
+}
+
+.video {
+  display: inline-block;
+  position: absolute;
+}
+
+.contenedor4 { /*Sección 4*/
+  width: 100%;
+  color: black;
+}
+
+.video2 {
+  display: inline-block;
+}
+
+.textder1 {
+  width: 30%;
+  height: 30%;
+  padding: 1% 0% 20% 4.5%;
+  display: inline-block;
+  position: absolute;
+}
+
+.contenedor5 { /*Sección 5*/
+  width: 100%;
+  color: black;
+}
+
+.textizq3 {
+  width: 30%;
+  height: 30%;
+  padding: 1% 4.5% 20% 3%;
+  display: inline-block;
+}
+
+.video3 {
+  display: inline-block;
+  position: absolute;
+}
+
+footer { /*Pie de página*/
+  width: 100%;
+  background-color: #333447;
+  color: white;
+}
+
+.contenedorlista{
+  width: 50%;
+  margin-left: 7%;
+  margin-right: 0%;
+  display: inline-block;
+}
+
+.listalogin,
+.listapartner,
+.listalearn {
+  list-style: none;
+  padding: 3% 8% 5% 8%;
+  display: inline-block;
+}
+
+.lista2 {
+  padding-top: 30%;
+}
+
+.lista3{
+  padding-top: 50%;
+}
+
+.contenedorapple{
+  display: inline-block;
+  position: absolute;
+  padding-left: 8%;
+  padding-top: 5.5%;
+}
+
+.contenedorgoogle{
+  display: inline-block;
+  position: absolute;
+  margin-top: 12.5%;
+  margin-left: 8%;
+}
+
+.imggoogle {
+  width: 30%;
+}
+
+.contenedormicrosoft{
+  display: inline-block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 8%;
+}
+
+.imgmicrosoft {
+  width: 30%;
+}
+
+.iconosredesociales{
+  margin-top: 4%;
+  width: 50%;
+  position: relative;
+  margin-left: 20%;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+.redessociales {
+  list-style: none;
+  display: inline-block;
+  width: 48%;
+}
+
+.listredes {
+  display: inline;
+  margin-right: 5%;
+}
+
+.copyright {
+  padding: 3% 5% 5% 5%;
+  margin-left: 20%;
+  margin-bottom: 0;
+  width: 40%;
+  text-align: center;
+  font-size: 80%;
+}
+a:hover {
+  color: #FF00BF;
+  text-decoration: underline;
 }

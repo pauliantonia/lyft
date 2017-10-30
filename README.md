@@ -1,3 +1,5 @@
+*28 Octubre 2017
+
 # Lyft
 
 * **Track:** _Common Core_
@@ -6,33 +8,32 @@
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+Realización de reto de código a partir de repositorio boilerplate (plantilla inicial) .
 
 ## Objetivo
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+El reto consistió en replicar el sitio de **Lyft**
 
-![Lyft Website](docs/fullpage.png)
+## Explicación
 
-## Consideraciones
+* Archivo HTML (index.html)
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+A partir de una estructura HTML, en primera instancia, se enlazó html con el archivo css el cual se hace a partir de la etiqueta "link" enlazado al archivo "main.css".
+
+El archivo html se divide en 6 secciones padres con el respectivo orden:
+1. HEADER: corresponde al inicio de la página el cual contiene la barra de navegación implementada con la etiqueta "nav" y un div llamado "contenedor".
+   - nav : aquí se encuentran el logo y las opciones de la barra de navegación, la primera es una imagen con el logo Lyft etiquetada con "img" y la segunda es una lista sin orden que contiene las opciones de nav, que son "Drive, Explore, Help y Log in".
+   -div "contenedor": Aquí se encuentra la sección 1, la cual se encuentra al costado derecho de el inicio de la página. En este div se encuentran los textos (titulos <h1> y párrafos <p>), es el maquetado del formulario, no es un formulario en sí. Solo la idea de uno, ya que no funciona como tal.
+2. SECTION "CONTENEDOR2"
+3. SECTION CONTENEDOR3
+4. SECTION CONTENEDOR4
+5. SECTION CONTENEDOR5
+6. FOOTER
+
+
+
+
+______________________________________________________________
 
 * En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
   estilos necesarios para tu proyecto:
